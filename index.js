@@ -1,2 +1,5 @@
 // Add your functions here
-const map = ;
+function map(sourceArray, fn) {
+    let map1 = sourceArray.map(fn);
+    return map1;
+}
