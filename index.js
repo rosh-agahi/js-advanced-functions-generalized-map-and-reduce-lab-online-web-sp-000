@@ -5,6 +5,5 @@ function map(sourceArray, func) {
 }
 
 function reduce(sourceArray, func, start=0){
-    let reduced = sourceArray.reduce(func, start);
-    return reduced;
+    sourceArray.reduce(func, start);
 }
